@@ -1,0 +1,22 @@
+¿Cómo desarrollar para la web?
+1/25
+
+Que se necesita para desarrollo web, estándares.
+________
+
+Para poder entrar al mundo del desarrollo web, debemos entender el lenguaje de las computadoras, es decir, como funcionan a nivel interno. También es necesario que conozcas como funciona internet, como se mandan y se reciben datos. Sabes que para esto muchas veces usamos navegadores web, pero, ¿sabes como funcionan?
+
+Toma el Curso de Ingeniería de software para que puedas entender más a profundidad todos los conceptos básicos que vas a necesitar para entender como funcionan las computadoras y como funciona internet.
+
+¿Cómo empiezo a desarrollar para la web?
+Define a que área te quieres dedicar.
+Asiste a bootcamps, platicas, talleres y empieza a crear.
+Trabaja en tu networking.
+Busca referentes en redes sociales.
+Toma y certifícate en tus primeros cursos.
+Crea tu portafolio con lo aprendido en esos cursos.
+Repite los últimos tres pasos para nunca parar de aprender.
+La clave para entrar al mundo del desarrollo web siempre será practicar. No importa si estamos hablando de CSS o HTML. Todos nuestros aprendizajes deben estar respaldados con mucha práctica. Esta es una carrera que no se va a estancar nunca y eventualmente tendrás que aprender y desaprender muchas cosas.
+
+Contribución creada con los aportes de: Mayra López.
+____________________
