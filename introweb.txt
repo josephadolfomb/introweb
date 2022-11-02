@@ -19,4 +19,463 @@ Repite los últimos tres pasos para nunca parar de aprender.
 La clave para entrar al mundo del desarrollo web siempre será practicar. No importa si estamos hablando de CSS o HTML. Todos nuestros aprendizajes deben estar respaldados con mucha práctica. Esta es una carrera que no se va a estancar nunca y eventualmente tendrás que aprender y desaprender muchas cosas.
 
 Contribución creada con los aportes de: Mayra López.
+https://platzi.com/web/
 ____________________
+
+Historia de la computación
+2/25
+
+Cómo empezó todo, los problemas eran resolver cuentas, la primera
+computadora fué un ábaco, cálculo
+luego máquinas más complejas, mecánicas
+luego computadoras humanas, cálculos de precisión, no era
+escalable, había un libro de cálculo de ayuda,
+luego se generaban computadoras programables,
+las primeras programadores eran mujeres, eran cálculos balísticos
+cuando ya teniamos el cálculo guardar, tarjetas perforadas,
+de manera manual, cada tarjeta era una línea de código
+cómo hablar con la máquina,
+machine code, 0 y 1, habían programadores pero muy complejo
+surgió C y C++ permitía hacer programas, que entieramos,
+tenían compiladores para traducir a machine code.
+________
+
+La historia de la computación es mucho más antigua de lo que pudiéramos
+suponer. Desde el inicio de los tiempos hemos buscado la manera de hacer
+más rápidas ciertas tareas de la vida diaria, como el realizar cálculos y
+ cuentas. Cada ciertos años tuvimos ciertos saltos tecnológicos que nos
+ permitieron que esos cálculos fueran más complejos y más rápidos.
+
+Contribución creada con los aportes de: Ramón Ruiz y Mayra López.
+
+https://es.wikipedia.org/wiki/Historia_de_los_lenguajes_de_programaci%C3%B3n
+https://platzi.com/paradigmas
+
+____________________
+
+Inputs y outputs
+3/25
+
+Existe interacción entradas y salidas,
+entrada la info que paso a la máquina, proceso, regresa un output
+entradas por los periféricos de entrada y luego periféricos de
+salida,
+en el proceso existen cálculos.
+Todo lo que la computadora son cálculos, lo importante son los
+tiempos de respuesta, cuando vemos una página, son milisegundos
+pero por detrás hay muchos cálculos. Ahorran tiempo.
+
+_________
+
+Cuando empezamos a entender como funcionan las computadoras, vemos que muchas veces necesitamos pedir que nos regrese cierta información, después de nosotros introducirla.
+
+Procesos, entradas y salidas
+La información que nosotros introducimos a la computadora, es nuestra información de entrada (Input). Para esta acción utilizamos ciertos periféricos o dispositivos de entrada como escáner, micrófono, teclado, cámara web, tableta gráfica, entre otros.
+
+Esta información es sometida a un proceso dentro de la computadora. Este tipo de proceso son en su mayoría cálculos matemáticos. Estos cálculos nos permiten realizar operaciones complejas, editar imágenes, crear animaciones y efectos 3D etc.
+
+La computadora nos va a regresar una información de salida (Output), mediante algún periférico, como puede ser una bocina, un monitor o una impresora.
+
+inputs y outputs.jpgresora.
+Contribución creada con aportes de: Mayra López.
+
+________
+
+Binario
+4/25
+
+Lenguaje binario es un sistema de conteo, nosotros tenemos un sistema
+de conteo decimal, del 0 al 9 , nos quedamos limitados debemos incrementar
+un dígito a la izquierda y así unidad, decena, ...
+la computadora tiene sólo 2 opciones de 0 y 1,
+________
+
+Las computadoras hablan su propio lenguaje (Machine Code). Este es el lenguaje binario, que es un sistema de conteo de la misma manera en que funcional el sistema decimal. La diferencia radica en la cantidad de símbolos que usamos y el valor que toman de acuerdo a su posición
+
+Notación decimal
+
+Cuando usamos una notación decimal, o base 10, tenemos 10 números para representar diferentes cantidades (0,1,2,3,4,5,6,7,8,9). Su valor está dado por su posición y cada uno de esos valores es un múltiplo de 10.
+
+Notación binaria
+
+El sistema binario está más simplificado, pues nada más necesitamos o 1 para representar nuestros números y todos los valores que pueden tomar están dados por las potencias de 2.
+
+Contribución creada con aportes de: Mayra López.
+________
+
+Bits y bytes
+5/25
+
+Una combinación de 8 bits son 1 Byte, los transistores ayudan a las
+computadoras a entender los bits y bytes, funcionan como on y off,
+como 1 y 0s,
+cómo representar letras colores y números?
+_____
+
+Las computadoras utilizan el sistema binario para manejar información. Todos los archivos tienen información representada como sistema binario, mediante Bites y Bytes.
+
+¿Cuál es la diferencia entre Bytes y Bits?
+Cada cero y uno es un Bit, que es nuestra unidad mínima de información. El conjunto de 8 Bits se convierte en un Byte
+
+
+La computadora utiliza los transistores para interpretar esta información y entender que tipo de información le estamos pasando.
+
+Los transistores función con dos estados, encendido y apagado, es decir uno y cero. Todos y cada uno de nuestros archivos son un conjunto de bits, formando bytes, que en conjunto pueden ser interpretados como archivos de música, de video o de texto.
+
+Contribución creada con aportes de: Mayra López.
+
+________
+
+ASCII
+6/25
+
+cuando comenzaron a salir los primeros lenguajes comenzaron a agregar letras
+cuando la computadora reciba ese número se le asigna una letra, cada letra
+¡Hola!
+161 = 10100001
+72 =  01001000
+111 = 01101111
+108 = 01101100
+97 =  01100001
+33 =  00100001
+________
+Si la computadora trabaja con ceros y unos, ¿Cómo es que esto se transforma en números y letras?. La respuesta es muy sencilla, para esto usamos el código ASCII
+
+¿Cómo hacer letras y símbolo con ASCII?
+La computadora puede transformar entre código binario a código ASCII y nosotros podemos hacer lo mismo conociendo esta tabla
+codigo-ascii.png
+
+Entonces, la información que empieza siendo un impulso eléctrico (o la carencia de este), agrupado con otros 7, nos forma un paquete de información binaria, que se traduce en letras, números o signos.
+
+Contribución creada con aportes de: Mayra López.
+https://www.ascii-code.com/
+_________
+
+UNICODE
+7/25
+
+El unicode representa a todos los alfabetos y caracteres especiales que
+existen en el mundo incluso los emojis. La diferencia es que cada
+caracter puede formarse por 1 a 6 bits, un emoji pesa mucho más.
+
+pingüino
+p
+ü = U+00FC = 85 43 0 0 70 67
+🙄 = U+1F644
+____________________
+
+El código ASCII nos permite representar muchas letras y números, pero no todos. De hecho, se estaba dejando de un lado a la mayoría de las letras, alfabetos y símbolos en general que usamos como humanidad. Para resolver este problema surgió Unicode
+
+¿Qué es Unicode?
+Es un código estandarizado e incluyente, que tiene incluidos todos los alfabetos, emojis y caracteres especiales. Puede formarse de 1 byte hasta 6 bytesunicode.png
+
+Podemos tener acceso a las tablas Unicode en nuestra PC desde el programa de Mapa de caracteres, donde, además, vemos su representación y el conjunto de teclas que lo generan, además de poder copiar y pegar la letra o carácter que deseamos.
+
+Contribución creada con aportes de: Mayra López.
+
+https://unicode-table.com/en/#basic-latin
+
+________
+
+RGB
+8/25
+
+Cualquier imagen, tiene pixeles cada uno de estos pixeles
+tiene 3 colores 3 subpixeles, de 0 a 255, la tonalidad
+dependiendo de la tonalidad va a ser un color.
+
+Plum purple = #9c51b6 : 156, 81, 182
+Plum purple = 178, 80, 228.
+
+bits y bytes guardan información de un pixel para imágenes o
+una onda para música o sonido.
+
+_________
+
+Protocolos
+9/25
+
+Arpanet puso las reglas, TCP e IP, transmission protocol,
+Internet Protocol, cada información viene con un encabezado
+________
+ARPANET es el primer proyecto en implementar el protocolo TCP/IP (Transmission Control Protocol / Internet Protocol).
+
+El protocolo en grandes rasgos se difiere en 5 etapas que son la forma en la cual se genera y envía la información. a través de internet por medio de encabezados que contienen directamente la dirección de quien tiene que recibirlo que significa IP address. Esta dirección viene en el encabezado. Cuando la información llega al router de internet, se encarga de leer el header e identificar a cuál IP address corresponde la información. Divide la información en diferentes paquetes y a través de internet cada uno de los paquetes sigue la ruta más rápida para llegar a la IP address automáticamente toda la información se junta y esa IP address que significa esa computadora recibe la información.
+
+¿Cómo se envía la información en internet?
+La información se trasmite en internet, mediante diferentes protocolos
+
+TCP/IP es el lenguaje que emplean dos sistemas (ordenadores) para hablar entre sí. Ambos deben de hablar el mismo idioma.
+En internet circulan más protocolos:
+FTP = transmisión de ficheros
+SMTP y POP envío y recepción de correos electrónicos
+TELNET = establece conexiones remotas con otros ordenadores.
+
+Los protocolo inicialmente que fueron creados por ARPANET que utilizamos hoy en día son TCP/IP, que esta dividido en 5 etapas
+
+Screenshot (2)-d4e6ad9e-a027-422f-a88c-4718d4c16962.png
+Es la forma en que se genera la información y viaja a través de la red y los diferentes aparatos, enviado de datos en encabezados dando indicaciones a donde quiere llegar y se va redirigiendo, hasta llegar a su destino por la ruta más óptima y entregando el mensaje a la dirección IP final.
+
+Contribución creada con aportes de: RetaxMaster y Mayra López.
+
+https://platzi.com/clases/redes/
+https://platzi.com/clases/avanzado-redes/
+_________
+
+¿De donde viene el internet?
+10/25
+
+La conección, el internet viene directamente de los cables
+en la casa en la ciudad, en el mar desde una parte del mundo
+a otra internet backbone
+
+internet es una abreviación de internetworking viene de un
+proyecto de conectar, en la guerra fría la intención era
+conectar 4 computadoras en 4 computadoras, el gobierno
+invirtió. El primer mensaje que se envió fué login,
+tenían que logearse y comenzar a hablar. Siguió
+creciendo, y vía satélite ya se podían conectar, cada
+universidad comenzó a sacar cada una manera, y comenzaron
+a salir protocolos, el arroba, el correo , formatos
+de ftp , archivos más pesados, y nacen primeros Protocolos
+se convierte en internet,
+
+____________________
+
+Existen generación que no han conocido un mundo sin internet. Es imposible considerar trabajar en una computadora sin conexión a internet. Pero, todo esto no fue fácil y no empezó en un pasado tan distante.
+
+¿Dónde nace la Red de Internet?
+La red de Internet nació de la necesidad de establecer conexiones entre las computadoras y poder compartirse información.
+
+Las conexiones en EEUU estaban centralizadas y si el punto central de comunicaciones era atacado por la URSS (era época de guerra fría) suponía un gran riesgo. Entonces el gobierno decide subsidiar un proyecto universitario llamado ARPANET que tenía como finalidad conectar computadoras en distintas universidades de EEUU separadas por varios km.
+Arpanet logra su objetivo al lograr transportar bytes de información por cables de una computadora a otra, haciendo que el input introducido en una computadora pueda mostrarse como output en otra muy distante.
+evolucion-de-internet-infografia2018-2-104ae1d4-069f-48a4-bc81-339d773a6726.jpg
+Se crea una red compuesta por muchas computadoras en distintas universidades en todo el país y cada universidad empezó a crear sus propias formas de comunicarse. Esto iba en camino a ser un territorio caótico sin orden.
+
+Arpanet entonces decide generar protocolos de comunicación específicos para estandarizar las maneras en las que se comparte la información y, de esa manera, poder establecer conexiones con reglas claras que todos pudiesen entender y ejecutar.
+
+Ya con estos protocolos definidos, ARPANET pasa a ser INTERNET.
+
+¿Cómo funciona el internet?
+Internet es toda la estructura que permite la conexión entre computadoras. Una vez expandida fuera de EEUU, internet va alrededor de todo el mundo cruzando los océanos a través de cables submarinos.
+
+El internet viene directamente de los cables que nosotros tenemos en la casa y ciudad que hacen posible que tengamos internet. La mayoría de estos cables se encuentran en el mar porque van directamente de una parte del mundo a otra. Internet es una abreviación de Internetworking y se generó en los años 70s para referirse a los cables físicos y las computadoras que se conectan entre sí.
+
+El internet nace de un proyecto llamado ARPANET (Advanced Research Projects Agency NETwork) en los 70’s y es la forma de cómo podemos conectar ciertas universidades para conectarlas entre sí e intercambiar información.
+mapa fibra óptima mundual.jpg
+cable de fibra optica.jpg
+
+Contribución creada con aportes de: Raul Hernández Mayra López.
+
+https://www.submarinecablemap.com/
+https://platzi.com/clases/ingenieria/
+________
+
+¿Qué es un ISP?
+11/25
+
+ARPANET estaba subsidiado por el gobierno, cuando ya el
+proyecto era grande, se abrio para que cualquiera pueda
+tener una conexión abrir empresas que se encarguen de
+mantener el internet, para tener conexión e infraestructura
+El ip. Cuando se abre se añaden muchas más pcs se vuelve
+mucho más difícil y nacen los dns.
+
+________
+
+ISP o Proveedor de Servicios de Internet (Del inglés Internet Service Provider), es el término con el que se identifica a las compañías que proporcionan acceso a Internet, tanto a los hogares como a otras empresas. Existen diferentes compañías con permisos para operar en los diferentes países del mundo. Esta es una de las razones de porque existen tantos cambios posibles en la velocidad de internet
+
+Inicialmente ARPANET estaba subsidiado por el gobierno de USA. Empezó a crecer tanto el proyecto y estaba tan maduro que USA decide “abrirlo”.
+Ahora los ISP son entidades encargadas de conectar negocios, gobiernos, hogares y demás instituciones con la infraestructura de internet
+Los ISP se deben encargar de mantener y crecer la infraestructura, mientras las instituciones les pagan a cambio de conectarse a la misma.
+
+¿CÓMO FUNCIONA UN ISP?
+Básicamente, lo que hace un ISP es desplegar una red de telecomunicaciones que se conecta a otras redes.
+
+Existe una jerarquía de proveedores en función del nivel de red al que se conecta cada ISP. El nivel más bajo se denomina Tier 3, y conecta redes privadas empresariales y ordenadores personales con los ISP de nivel Tier 2. Estos tienen una cobertura de ámbito local o nacional y pueden conectarse entre si o también conectarse con los ISP de nivel Tier 1, que son los que tienen cobertura internacional.
+ISP.PNG
+
+¿QUÉ TIPOS DE ISP EXISTEN?
+En los inicios de Internet, los únicos ISP que tenían autorización para proporcionar conexiones eran organismos gubernamentales, empresas de investigación y universidades. Con el paso de los años y la expansión de la red se multiplicaron los ISP, aunque estas son, en su mayoría, empresas de telecomunicaciones.
+
+PROVEEDORES DE ACCESO TELEFÓNICO.
+PROVEEDORES DE ACCESO POR DSL.
+PROVEEDORES DE ACCESO POR CABLE.
+PROVEEDORES DE BANDA ANCHA INALÁMBRICA.
+PROVEEDORES DE ACCESO POR SATÉLITE.
+PROVEEDORES DE FIBRA ÓPTICA.
+Contribución creada con aportes de:Aaron Quiroga,Camilo Cortes y Mayra López.
+________
+
+DNS
+12/25
+
+Como logramos conectar las ip adress con un dns,
+la ip es como un número de teléfono,
+los dns sería el número.
+los dns salen para una lectura más humana,
+por debajo está oculto el ip adress
+los dns es sólo para nosotros.
+_________
+
+
+El 23 de junio de 1983 se prueba por primera vez el Domain Name System (DNS) El 23 de junio de 1983 Paul Mockapetris y Jon Postel realizaron el primer test del sistema de nombre de dominio o DNS (Domain Name System), que sentaría las bases para la popularización de Internet.
+
+Cuando crecieron los protocolos a cada una de las computadoras conectadas se les dio un IP address
+DNS-8dbf57e3-c95e-449c-b0cd-14cd94869cc0.png
+
+IPS y DNS
+El IP address es un conjunto de números que identifica a un equipo que utilice el protocolo IPo, que corresponde al nivel de red del modelo TCP/iP.
+Los DNS se crean para que de manera sencilla podamos identificar a quien se va a contactar sin tener que escribir el IP address (Ej: El IP address de Google es 172.217.7.23) siempre que queramos entrar a una pagina web.
+
+El IP address sigue ahí pero esta oculto bajo el nombre de la empresa o la pagina web a la que queramos acceder.
+Cada dispositivo tiene una IP única, que los identifica y les permite conectarse. Hace una petición a los DNS (Domain Name System) para que le permite conectarse. Nosotros cuando estamos navegando y buscamos algo hacemos una petición al DNS sobre cuál es la IP de la URL que estamos buscando y el DNS nos devuelve la IP que buscamos y llegamos a la Laguna que queremos.
+
+Tienen una base de datos en la que saben que IP corresponde a un nombre
+
+Contribución creada con aportes de: Jefferson David R.L, Garcia Erika y Mayra López.
+
+https://platzi.com/cursos/ingenieria/
+
+________
+
+El primer desarrollador web
+13/25
+
+La historia de la web.
+Que es la web.
+Quién fué el primer desarrollador fué el creador de la web.
+Tim Berners-Lee
+Se dió cuenta de que era difícil obtener la información
+sin accesos, hizo una propuesta de www
+con hipervínculos, empezar a saltar de lugar a lugar
+
+Todo esto lo generó con una pc next,
+Generó HTML, la URL, y la HTTP protocolo de peticiones
+construyó el primer servidor y el primer navegador.
+los servidores, almacenan la info y otras se conectan
+son el core.
+
+http://info.cern.ch/hypertext/WWW/TheProject.html
+________
+
+W3C
+14/25
+
+Tim trabajó las 3 tecnologías, url html, http
+contruyó el primer navegador y servidor web
+y ya no tenías que pedir acceso a un tercero,
+esto fué creciendo comenzaron a construir páginas web
+con más información era hora de ponerle a alguien o a algo
+la tarea que se encargara del crecimiento de estas tecnologías
+trabajan los estándares las tecnologías que se trabajan
+en la web, la w3c trabaja las tecnologías que van a llegar
+nuevas tecnologías para bien para todos, ya no nada más son
+empresas
+ahora hay más empresas google amazon , académicas y privadas
+se encargan de ver la evolución de los estándares para
+seguir evolucionando la web, la experiencia que tiene esto
+_____
+
+Internet no tiene un dueño absoluto o un jefe que diga y proyecte hacia donde van las nuevas tecnologías. Lo que tenemos es un grupo de empresas, escuelas y en general líderes en la industria, que cada cierto tiempo se reúnen y dictan hacia donde tomaremos camino, que protocolos van a seguír y cuáles van cambiar.
+
+¿Qué es el W3C?
+El W3C (World Wide Web Consortium) es un comité que se dedica a implementar tecnologías en el desarrollo de Internet. El organismo fue fundado en el MIT en Cambridge, Massachusetts, EE.UU. en 1994.
+
+El W3C ofrece recomendaciones, que incluyen estándares tecnológicos que pueden, por ejemplo, definir un lenguaje de mercado, eliminar ciertas tecnologías y estandarizar procesos.
+
+¿Quiénes perteneces al W3C?
+El momento de escribir esto, el W3C cuenta con 462 miembros, entre ellos se encuentran
+
+Airbnb Inc.
+Facebook
+Alibaba Group
+Amazon
+Apple, Inc.
+BBVA
+Cisco
+Indeed
+¿Qué regula el W3C?
+La Wec regula diferentes protocolos como:
+
+CGI
+CSS
+DOM
+GRDDL
+HTML
+MathML
+OWL
+P3P
+PROV
+RDF
+SISR
+SKOS
+SMIL
+SOAP
+SPARQL
+SRGS
+SSML
+SVG
+VoiceXML
+XHTML
+XHTML+Voice
+XML
+XML Events
+XML Information Set
+XML Schema
+XPath
+XQuery
+XSL-FO
+XSLT
+WCAG
+WSDL
+XForms
+Contribución creada con aportes de: Mayra López.
+
+https://www.w3.org/Consortium/Member/List
+________
+
+Web browser
+15/25
+
+Mosaic, implementaron las imágenes fotografías gráficos.
+Ibm, internet explorer, netscape creó javascript,
+evolucionaron los navegadores,
+salió el navegador safari mejoró la UI
+agregaron mejores estándares mejor experiencia
+luego salió chrome, que entendía javascript
+hacen que la interacción aumente, mayor velocidad,
+engine B8 trabajaron con google maps,
+aplicaciones mayores a sólo texto,
+________
+
+Es gracias a los diferentes navegadores web que podemos acceder fácilmente a una infinidad de sitios en internet. Estos navegadores son un gran ejemplo de accesibilidad y de como aún algo tan simple, puede tener tantas opciones.
+
+Historia de los navegadores de internet
+Mosaic fue el primer navegador que ayudo agregar gráficos junto con textos. Fue creado en 1992.
+
+Netscape ayudo en la evolución de la experiencia de usuario. Gracias a Netscape tenemos Javascript.
+
+Internet Explorer, de Microsoft, fue el rey de los navegadores por muchos años.
+
+Safari hizo un cambio en sus diseños de interfaz de usuario haciéndolos más llamativos y agradables. Se empezaron a agregar más estándares al momento de generar páginas web y ver que los navegadores soportaban los estándares.
+
+Chrome saco un motor de código llamado V8 que permitió que la velocidad de reacción y la interacción sea rápida. Estos cambios permitieron agregar aplicaciones dentro de nuestros sitios webs.
+infografia navegadores.jpg
+
+PÁGINAS WEB ESTÁTICAS
+Ausencia de movimiento y funcionalidades.
+Realizadas en XHTML o HTML.
+Acceder al servidor para cambiar contenidos de la página.
+Opacidad a los deseos o búsquedas del visitante a la página.
+Lento y manual el proceso de actualización.
+PÁGINAS WEB DINÁMICAS
+Estas permiten la creación de aplicaciones dentro de la propia web y ofrecen una mayor interactividad con los usuarios que la visiten.
+
+Infinitas posibilidades en su diseño y desarrollo.
+El visitante puede alterar el diseño, contenidos o presentación.
+Se utilizan varias técnicas de programación.
+El proceso de actualización es muy sencillo.
+Permite muchas funcionalidades como bases de datos, foros, etc.
+Contribución creada con aportes de: MGuedez, Leonard L y Mayra López.
+________
