@@ -446,7 +446,7 @@ agregaron mejores estándares mejor experiencia
 luego salió chrome, que entendía javascript
 hacen que la interacción aumente, mayor velocidad,
 engine B8 trabajaron con google maps,
-aplicaciones mayores a sólo texto,
+aplicaciones mayores con interacción a sólo texto,
 ________
 
 Es gracias a los diferentes navegadores web que podemos acceder fácilmente a una infinidad de sitios en internet. Estos navegadores son un gran ejemplo de accesibilidad y de como aún algo tan simple, puede tener tantas opciones.
@@ -478,4 +478,411 @@ Se utilizan varias técnicas de programación.
 El proceso de actualización es muy sencillo.
 Permite muchas funcionalidades como bases de datos, foros, etc.
 Contribución creada con aportes de: MGuedez, Leonard L y Mayra López.
+________
+
+Evolución del protocolo HTTP
+16/25
+
+protocolo son reglas de comunicación, se estaba generando el
+internet, fué evolucionando, tcp ip, para conocer direcciones
+en la parte de http, es para la web, para manejar internet,
+funciona como una carta, colocar una direccion con un
+contenido,
+desde un dispositivo sería el cliente con una petición que
+va a un servidor este usuario está solicitando platzi.com
+el servidor sabe porque existe el ip adress lo arma y lo
+envía con una nueva conexión.
+
+Http methods:
+Get : solicitas datos, cuando quieres entrar a una web
+estas haciendo un get.
+Post : Enviar datos, cuando haces un login, si estás en fb
+y quieres publicar,
+Put : Crea o reemplaza datos, si tienes un estado y quieres
+reemplazarlo por otro.
+Delete: Borra datos específicos, quieres borrar una foto.
+
+Https: es por seguridad, cuando enviamos un post, por
+ejemplo de una tarjeta de crédito, pueden clonar tu tarjeta
+por eso se necesita el https para que la información sea
+segura, encriptada. Los navegadores te avisan "No es seguro"
+
+Https tiene el mismo concepto sólo que la info va
+encriptada.
+________
+
+La principal función de internet, es la de compartir información. Este fue su origen y sin duda es el principal objetivo de este esfuerzo mundial. Para lograr esto se han creado diferentes protocolos y metodologías para el correcto intercambio de datos.
+
+Protocolo HTTP
+El Protocolo de transferencia de hipertexto( Hypertext Transfer Protocol- HTTP) es el protocolo de comunicación que permite las transferencias de información en la World Wide Web.
+HTTP fue desarrollado por el World Wide Web Consortium y la Internet** Engineering Task Force**. Es un protocolo sin estado, es decir, no guarda ninguna información sobre conexiones anteriores.
+El desarrollo de aplicaciones web necesita frecuentemente mantener estado. Para esto se usan las cookies, que es información que un servidor puede almacenar en el sistema cliente.
+Esto le permite a las aplicaciones web instituir la noción de sesión, y también permite rastrear usuarios mediante las cookies pueden guardarse en el cliente por tiempo indeterminado.
+como-funciona-la-web.jpg
+
+Métodos dentro de HTTP:
+GET: Solicita datos
+POST: Envía datos.
+PUT: Crea o reemplaza datos.
+DELETE: Borra datos específicos.
+
+Contribución creada con aportes de: Leonard L, Juan Tambo y Mayra López.
+
+________
+
+Estándares web
+17/25
+
+Se creó la W3C son tecnologías, pero porque estándares?
+surgió la guerra de los navegadores, se requería un protocolo
+porque cada navegador implementaba reglas diferentes,
+reglas para que el desarrollo web sea en conjunto,
+los navegadores no van a decidir los navegadores deben
+implementarlo, cada navegador tiene un roadmap, algunos
+navegadores lo harán antes o después, pero ya había un
+estándar. Buena noticia para que un proyecto web corra en
+todo.
+
+Se generó el HTML, actualmente es el HTML5, fué el primer
+estándar que se generó,
+
+Para que la web se haga más atractiva,
+Los navegadores podían agregar los estilos el CSS,
+para diferenciar el encabezado, secciones diferentes,
+formato diferente a las páginas, según la línea de diseño
+de una marca o empresa.
+
+Luego los programadores y usuarios requerían interacción,
+aparecen los primeros formularios, das clicks secciones
+desaparecen otras aparecen,
+
+Html era como la arquitectura,
+CSS sería el layout
+Javascript la interacción
+
+WebAssebly, es un nuevo estándar en diciembre 2019
+es un compilador C C++ y webassembly da código
+máquina hace que las webs sean más ligeras,
+
+_____
+
+W3C lanzó una iniciativa en 1997 para lograr la accesibilidad web (Web Accessibility Initiative o WAI) y que siguieran una serie de estándares o normas.
+A raíz de entonces se fueron desarrollando diferentes estándares logrando
+que cada página web se vea correctamente independientemente del navegador o
+dispositivo.
+
+¿Qué son los estándares web?
+Los estándares web se introdujeron para proteger el ecosistema web, para mantenerlo abierto, gratuito y accesible para todos.
+Cuando se hizo esto, se alentó a los creadores de navegadores a adherirse a una forma estandarizada de hacer las cosas, lo que resultó en una compatibilidad cruzada cada vez más fácil para los creadores de contenido y ya no hubo necesidad de crear múltiples versiones del mismo sitio web.
+html, css y js.jpg
+
+¿Cuales son los estandares del la web?
+Mantener la web gratis y accesible para todos
+Ayudar a simplificar el código fuente
+Reducción del tiempo de desarrollo y mantenimiento
+Hacer de la web un lugar más accesible
+Permitir compatibilidad y validación hacia atrás
+Ayudar a mantener un mejor seo (optimización de motores de búsqueda)
+Crear un grupo de conocimiento común
+HTML (HyperText Markup Language), para definir la estructura de los documentos.
+CSS (Cascading Style Sheets), que permite asignar estilos para la representación de los documentos.
+Javascript, que permite otorgar dinamismo y funcionalidad.
+Contribución creada con aportes de: Leonard L, Sebastian Heredia y Mayra López.
+
+https://platzi.com/web/
+________
+
+¿Dónde estamos ahora?
+18/25
+
+La web moderna,
+Multiplataforma,
+actualmente 4000 millones de dispositivos conectados a internet
+empezaron a hacerse más pequeñas, de escritorio, en casa,
+una vez ya tenían internet las web era para escritorio
+luego móviles, relojes, tablets, desde donde estes puedas
+consumir la web, asi que desde ahora es mobile first
+primero dispositivos móviles y luego crezcan a tablets, y a
+escritorios.
+
+Luego internet of things
+television inteligente, speakers
+son diferentes dispositivos te pueden dar muchisimo valor
+surgen datos y surge machine learning a inteligencia artificial
+dan productos como autos que se pueden manejar solos ,
+ciertos robots como los de boston dinamics,
+y viene 5G para generar más datos,
+actualmente el 10% que podriamos tener con el 5g
+doctores en remoto para hacer operaciones desde casa,
+_____
+
+Estado actual de Internet
+Actualmente hay 4000 millones de dispositivos conectados a la Web, lo que es igual a más de la mitad de la humanidad, estos dispositivos no solo son computadoras, ahora cualquier equipo puede llegar a conectarse a la Web, desde cualquier lugar.
+
+Patrones de diseño
+El indiscutible aumento de los teléfonos móviles y tabletas como dispositivos de navegación web lleva a plantearse un diseño adaptado a estos aparatos, de dimensiones más reducidas que la clásica pantalla del ordenador, y con la capacidad de ser usados en cualquier lugar.
+
+Mobile first
+Como su nombre indica, “primero móvil” es una tendencia de diseño y maquetación web orientada a dar prioridad a la visualización en dispositivos móviles.
+
+Internet of Things
+Es un concepto que se refiere a una interconexión digital de objetos cotidianos con internet.
+Internet of Things.png
+
+Machine Learning y Artificial Intelligence
+Machine Learning es una disciplina científica del ámbito de la Inteligencia Artificial que crea sistemas que aprenden automáticamente. Aprender en este contexto quiere decir identificar patrones complejos en millones de datos. La máquina que realmente aprende es un algoritmo que revisa los datos y es capaz de predecir comportamientos futuros.
+
+5G
+Esta nueva tecnología móvil aumentará la velocidad de conexión, reducirá al mínimo la latencia (el tiempo de respuesta de la web) y multiplicará exponencialmente el número de dispositivos conectados. En otras palabras: estaremos conectados a todo, todo el día, y en el menor tiempo posible.
+5g-tecnologia-que-es.jpg
+
+Tendencias para el futuro de la Web
+Desaparición de los tiempos de carga.
+Mejor accesibilidad.
+Incremento en ciberataques.
+Acceso universal a internet.
+Automatización de la creación de código.
+La búsqueda por voz será la principal debido al IoT.
+Realidad aumentada en la web incrementa.
+Contribución creada con aportes de: Isabel López, Raul Hernández y Mayra López.
+
+________
+
+DOM
+19/25
+
+Cómo funciona el navegador?
+generamos el request através de http, luego regresa los
+assets en algo que se llama la respuesta hace varios
+pasos el critical rendering path,
+dom, cssom, render tree, layourt, paint, en intermedio
+trabaja con javascript
+
+El DOM, document objet module
+es un arbol que se genera con todos esos nodos,
+forma etiquetas, html, head, body, palabras,
+párrafos, info, texto, imágenes,
+con javascript puedo agregar interacción
+es el primer paso, hace un mapeo, arriba del
+html están los estilos.
+________
+
+Todas páginas web están formadas por html,css y JavaScript e independientemente de la cantidad de cada uno de ellos, los navegadores siempre siguen el mismo proceso para conseguir tanto el contenido como la manera en que este se ha de mostrar al usuario:
+
+Generar el árbol DOM a partir del html.
+Generar el CSSOM Tree a partir del css.
+Generar el Render Tree con la combinación del DOM y 🔸 CSSOM
+Calcular la disposición o layout de todos los nodos.
+Pintar los nodos del Render Tree.
+¿Qué es el DOM?
+DOM significa Document Object Model (‘Modelo de Objetos del Documento’) es una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML, un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos.
+
+A través del DOM, los programas pueden acceder y modificar el contenido, estructura y estilo de los documentos HTML y XML, que es para lo que se diseñó principalmente.
+
+Es el árbol de nodos que representa los contenidos de la página o aplicación web. Estos contenidos están determinados por el HTML y, aunque se parezca bastante al DOM, no són lo mismo. DOM es un árbol que se genera con la información de las etiquetas HTML.
+Proporciona una representación estructural del documento, permitiendo la modificación de su contenido o su presentación visual.
+Con JS ya podremos generar interactividad a través del DOM.
+
+¿Cómo se genera el árbol DOM?
+El DOM se genera a partir del fichero con extensión .html y sigue distintos pasos para generarse:
+
+Convertir los bytes a caracteres.
+Pasar de caracteres a tokens.
+Generar los nodos.
+Construir el árbol DOM.
+En caso de que el navegador detecte un <script> no declarado como asíncrono en el <head> de la página, la creación del DOM será bloqueada hasta que el JavaScript sea descargado y ejecutado. Por eso es importante declarar los scripts como asíncronos.
+
+Contribución creada con aportes de: Leonard L, Juan Tambo y Mayra López.
+________
+
+CSSOM
+20/25 Css object Model
+
+se encarga de tratar todos los estilos
+genera otro árbol,
+con en referencia al html
+para que el cssom y el dom se fusionen.
+_____
+
+Parte importante de entender el DOM es entender como se comporta el CSS en relación con este. Es decir, la parte visualmente atractiva de nuestra página web. Sin un CSS, por muy funcional que sea nuestra página, el resultado será un sitio visualemente no agradable
+
+El CSSOM
+Llamamos CSSOM al árbol de nodos que indicará al navegador cómo se debe pintar el DOM (el contenido que tenemos para pintar) dadas las distintas reglas que tengamos de CSS.
+
+¿Cómo se genera el árbol CSSOM?
+El CSSOM se genera a partir del fichero con extensión .css y sigue exactamente los mismos pasos que el DOM para generarse:
+
+Convertir los bytes a carácteres.
+Pasar de carácteres a tokens.
+Generar los nodos.
+Construir el árbol CSSOM.
+La construcción del DOM y del CSSOM se hacen de manera asíncrona/paralela. Eso significa que el proceso de generar el CSSOM no es bloqueante para poder generar el DOM, pero, sí que lo es para renderizarlo.
+
+En caso de que el navegador detecte un <script> no declarado como asíncrono en el <head> de la página, este será descargado, pero no ejecutado hasta que el árbol CSSOM termine de ser construido y, por tanto, si el **JavaScript **no es ejecutado, la construcción del DOM queda bloqueada.
+
+Contribución creada con aportes de: MGuedez y Mayra López.
+________
+
+Render tree
+21/25
+
+Generar un árbol que tenga estos dos objetos, es la fusión
+los estilos y los elementos,
+pasa en el navegador la máquina genera los cálculos
+para regresarnos las imágenes y textos, colores.
+____
+
+Los árboles CSSOM y DOM se combinan en un árbol de representación. A continuación, este árbol se utiliza para computarizar el diseño de cada elemento visible y sirve como entrada del proceso de pintura que permite representar los píxeles en la pantalla. Para lograr un óptimo rendimiento de representación, es imprescindible optimizar cada uno de estos pasos.
+
+¿Qué es el Render Tree?
+Es un árbol que une el DOM y CSSOM para renderizarlos, creando un código que pueda interpretar el navegador. De esta manera se generan todas las páginas web que vamos cargando mientras navegamos.
+
+Proceso de renderizado
+Bytes: El navegador coge todo el código y lo transforma en bytes.
+
+Characters: El navegador transforma estos bytes en caracteres dependiendo de la codificación que le hemos pasado. Por ejemplo UTF-8.
+
+Tokens: Ahora transforma dichos caracteres en tokens, identificando el significado de los caracteres relacionándolo a etiquetas que generan cierto tipo de contenido. W3C documenta todas la etiquetas.
+
+Nodos: Después de saber el dicho orden de los tokens hará una transformación a los nodos, estos nodos son objetos. Dichos objetos son lo que el navegador sabe interpretar (Los elementos).
+
+DOM: Ya cuando el navegador tiene todos los nodos los ordena en un árbol jerárquico donde cada objeto tendrá una posición dependiendo su etiqueta.
+
+CSSROM: Transforma el CSS y une con el DOM. Asignando los estilos a cada elemento dentro del DOM.
+
+Contribución creada con aportes de: Isabel López, Alonso Padilla y Mayra López.
+
+https://platzi.com/web/
+https://platzi.com/clases/html-css-2020/
+________
+
+Layout
+22/25
+
+Qué es.
+con el render tree, ya puede formar la maqueta,
+las imágenes, el menú, el navegador lo comienza a formar,
+con ciertos estilos, cada uno de estos contenedores,
+en el layout,
+estos contenedores, estas cajas
+el Layout
+está usando el diseño de la página pero
+sin inyectar el contenido,
+crea la estructura y forma ,
+la computadora comienza a generar los cálculos
+para los colores imágenes y demás,
+_____
+
+Es muy probable que hayas notado que muchas páginas web tienen
+un sistema de organización de elementos muy similar. Esto se debe
+a que la gran mayoría de sitios tiene un mismo sistema de distribución,
+para facilitar que nuestros usuarios encuentre y lean nuestro contenido.
+
+¿Que es el Layout?
+Es un esquema de la distribución de los elementos dentro de una página
+web. Se compone de una serie de bloques de ciertas dimensiones en los
+que se colocará el contenido. Estos bloques suelen trazarse a través de
+etiquetas HTML comunes, como div, o semánticas, como header, nav,
+section, article, aside y footer, incorporadas en HTML5.
+LAYOUT CSS-4f2bb3d8-5a31-4ae7-beb5-a3d7f8fef420.png
+LAYOUT HTML5-5babae0f-5746-45fb-a6e4-abb9320e4d29.jpg
+
+Contribución creada con aportes de: Mayra López.
+
+________
+
+Paint
+23/25
+
+Pintado o Paint
+con el layout o maqueta del proyecto,
+forma las cajas, en las dimensiones,
+y en el pintado se agregan los textos e imágenes
+comenzar a hacer algunas cosas
+estos son los pasos principales que hace el navegador
+
+Entendiendo estos pasos podemos entender unos
+cuellos de botella, si se tarda en cargar
+puede ser un problema en el desarrollo
+entendiendo estos pasos podemos mejorar el
+performance de la web.
+_____
+
+Cuando ya tenemos el Render Tree y el layout cargados, el proyecto empieza a tomar forma. Mediante el layout se forman las cajas, se llenan con la información y por último se pinta, es decir, se le dan los colores, acabaos, sombras y estilos pertinentes de todos y cada uno de los elementos.
+
+Paint
+Paint o pintado es poner los detalles finales para que el proyecto se pueda ver como queríamos al principio. Su velocidad es gran responsable de la velocidad final que se tenga al momento de cargar con el sitio.
+Es la parte final, así que después de esto podríamos interactuar con la página
+
+paint.jpg
+Problemas durante la carga de las páginas
+Si el proyecto fue creado sin cuidado, es muy fácil que ocurran ciertos problemas como:
+
+Páginas que tardan en cargar
+Videos que no se ven
+Imágenes con mala calidad
+Para evitar que estos problemas afecten a nuestras páginas, debemos tener una buena comprensión de todos y cada uno de los procesos que se llevan a cabo para modelar.
+
+Contribución creada con aportes de: Mayra López.
+
+________
+
+JavaScript engine
+24/25
+
+Pasa en parelelo pero pasa hasta el final
+del html.
+JavaScript es un estándar porque tiene js engine
+convierte el javascript a machine code para que la pc
+sepa qué hacer, el navegador sería un intermediario
+curso javascript engine.
+llega la petición luego el navegador lo parsea,
+lo interpreta, lo compila a machine code.
+________
+
+Uno de los momentos donde en internet cambio por completo, fue cuando logramos hacer páginas dinámicas que permiten todo tipo de interacciones con el usuario
+
+¿Cómo se ejecuta el JavaScript en el navegador?
+Cuando llega un script al navegador, el JS Engine inicia un proceso el cual consta de:
+
+Recibir el código como un flujo de bytes UTF-16 y pasarlo a un decodificador de flujo de bytes (el cual hace parte del motor).
+El parser toma el código y lo descompone en tokens (los tokens son elementos de js como: let, new, símbolos de operaciones, functions, promises).
+Gracias al anterior parseo se genera una estructura de datos en forma de árbol, o Abstract Syntax Tree (AST).
+El intérprete recorre el AST y va generando el bytecode.
+El optimizing compiler optimiza el código bytecode a machine code y se reemplaza el código base.
+0_A24XmmK2IUz0wvkg-b9c4a92c-f220-471d-be59-2f4af65a1f52.png
+Nota: El optimizing compiler encuentra los puntos donde el código se puede optimizar, no lo hace con todo el código. Normalmente, optimiza el código que se repite varias veces, como por ejemplo un ciclo for muy largo.
+Contribución creada con aportes de: Mayra López.
+
+https://platzi.com/cursos/javascript-navegador/
+https://platzi.com/cursos/basico-javascript/
+________
+
+Cierre del curso
+25/25
+
+sabemos evolución de computadoras.
+Código binario, ASCII,
+cómo creció el internet y la web
+de dónde vienen los navegadores, el primer desarrollador web.
+Curso definitivo de html y css.
+Curso de responsive design y css.
+Curso básico de javascript.
+________
+
+El mundo del desarrollo web es una campo de trabajo que tiene y tendrá una gran importancia. Podríamos decir que es el campo de trabajo que tiene más futuro. Si decides incursionar en este mundo. Debes empezar a conocer ciertos aspectos fundamentales como:
+
+Saber la historia de la computación para entender el proceso que ha llevado.
+Distinguir entre bytes y bites
+Conocer los protocolos más usados en internet.
+Entender el DOM, el CSSOM y el Render Tree.
+Conocer lo quie es backend y frontend.
+JavaScript.
+etc.
+El desarrollo web es un ambiente donde se viven cambios de manera continua, y se tiene que vivir con una mentalidad de aprendizaje continuo.
+Contribución creada con aportes de: Mayra López.
+
+https://platzi.com/cursos/basico-javascript/
+https://platzi.com/clases/html-css/
+https://platzi.com/clases/mobile-first/
 ________
